@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css';
+import Background from './components/Background';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Background />
   </React.StrictMode>,
   document.getElementById('root')
 );
